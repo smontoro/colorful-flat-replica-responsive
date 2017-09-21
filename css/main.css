@@ -26,6 +26,7 @@ img {
 
 h2 {
 	font-family: 'Merriweather', serif;
+	color: white;
 }
 
 .recent-work {
@@ -51,5 +52,22 @@ h2 {
 .btn-blue {
 	background-color: #A5D1DA;
 }
+
+.team {
+	background-color: #DDBAC5;
+}
+
+.team p {
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
 
 
