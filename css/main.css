@@ -61,6 +61,19 @@ h2 {
 	font-size: 12px;
 }
 
+.card-top {
+	background-color: grey;
+	height: 150px;
+}
+
+.fa-user {
+	color: white;
+	padding-top: 40px;
+}
+
+.card {
+	max-width: 250px;
+}
 
 
 
