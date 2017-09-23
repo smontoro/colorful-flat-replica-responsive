@@ -54,6 +54,10 @@ h2 {
 	font-size: 12px;
 }
 
+.thumbnails {
+	padding: 0 100px;
+}
+
 
 .btn {
 	font-size: 12px;
@@ -98,8 +102,26 @@ h2 {
 	max-width: 250px;
 }
 
+.team ul {
+	display: inline-block;
+	padding-right: 44px;
+}
 
+.team li {
+	display: inline-block;
+}
 
+.fa-facebook-official {
+	color: blue;
+}
+
+.fa-tumblr-square {
+	color: #0366D6;
+}
+
+.fa-pinterest {
+	color: red;
+}
 
 
 
