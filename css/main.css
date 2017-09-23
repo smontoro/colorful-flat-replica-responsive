@@ -1,7 +1,14 @@
- {
-	background-color: #A5D1DA;
+/**universal styles**/
+h2 {
+	font-family: 'Merriweather', serif;
+	color: white;
+} 
+
+.btn {
+	font-size: 12px;
 }
 
+/**HEADER**/
 .header-section {
 	background-color: #A5D1DA;
 }
@@ -25,7 +32,6 @@
 	left: 50px;
 }
 
-
 .header-right > img {
 	width: 60%;
 	position: relative;
@@ -36,16 +42,12 @@
 	margin-left: 50px;
 }
 
-h2 {
-	font-family: 'Merriweather', serif;
-	color: white;
-}
-
+/**FEATURES**/
 .features-section img {
 	width: 40%;
-
 }
 
+/**RECENT WORK**/
 .recent-work {
 	background-color: #9AD5A7;
 }
@@ -58,19 +60,35 @@ h2 {
 	padding: 0 100px;
 }
 
-
-.btn {
-	font-size: 12px;
-}
+/** TEMPLATE**/
 
 .template {
 	background-color: #F1F1F1;
 }
 
-.template img {
+.template-top img {
 	width: 50%;
+	position: relative;
+	left:20%;
 }
 
+.template-top-content {
+	position: relative;
+	right: 8%;
+
+}
+
+.template-bottom img {
+	width: 50%;
+	position: relative;
+	left: 27%;
+}
+
+.template-bottom-content {
+	position: relative;
+	right: -6%;
+	
+}
 
 .btn-green {
 	background-color: #9AD5A7;
@@ -80,6 +98,7 @@ h2 {
 	background-color: #A5D1DA;
 }
 
+/**TEAM**/
 .team {
 	background-color: #DDBAC5;
 }
@@ -89,7 +108,7 @@ h2 {
 }
 
 .card-top {
-	background-color: grey;
+	background-color: #F1F1F1;
 	height: 150px;
 }
 
@@ -112,18 +131,19 @@ h2 {
 	padding: 5px 5px 5px 5px;
 }
 
-.fa-facebook-official {
+.fb {
 	color: blue;
 }
 
-.fa-tumblr-square {
+.tmblr {
 	color: #0366D6;
 }
 
-.fa-pinterest {
+.pin {
 	color: red;
 }
 
+/** POSTS **/
 .posts {
 	background-color: #A4D0D9;
 }
@@ -137,6 +157,8 @@ h2 {
 	font-size: 18px;
 }
 
+
+/** FOOTER **/
 footer {
 	background-color: #3C3C3C;
 }
@@ -153,6 +175,7 @@ footer hr {
 
 .copyright {
 	font-size: 12px;
+	padding-left: 10%;
 }
 
 .yellow {
@@ -162,6 +185,19 @@ footer hr {
 footer li {
 	display: inline-block;
 	padding-left: 5px;
-	color: #808080;
 }
+
+.footer-social {
+	padding-left: 17%;
+}
+
+.footer-social a {
+	color: grey;
+}
+
+
+
+
+
+
 
