@@ -1,4 +1,8 @@
-.top-navbar {
+ {
+	background-color: #A5D1DA;
+}
+
+.header-section {
 	background-color: #A5D1DA;
 }
 
@@ -16,17 +20,30 @@
 	border: solid 1px white;
 }
 
-header {
-	background-color: #A5D1DA;
+.header-left {
+	position: relative;
+	left: 50px;
 }
 
-img {
-	width: 40%;
+
+.header-right > img {
+	width: 60%;
+	position: relative;
+	right: 90px;
+}
+
+.header-left {
+	margin-left: 50px;
 }
 
 h2 {
 	font-family: 'Merriweather', serif;
 	color: white;
+}
+
+.features-section img {
+	width: 40%;
+
 }
 
 .recent-work {
@@ -37,6 +54,7 @@ h2 {
 	font-size: 12px;
 }
 
+
 .btn {
 	font-size: 12px;
 }
@@ -44,6 +62,11 @@ h2 {
 .template {
 	background-color: #F1F1F1;
 }
+
+.template img {
+	width: 50%;
+}
+
 
 .btn-green {
 	background-color: #9AD5A7;
