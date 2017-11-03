@@ -42,7 +42,15 @@ h2 {
 	margin-left: 50px;
 }
 
+@media (max-width: 769px) {
+	.img-fluid {
+    margin-left: 33%;
+}
+}
+
+
 /**FEATURES**/
+
 .features-section img {
 	width: 40%;
 }
